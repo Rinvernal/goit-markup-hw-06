@@ -12,10 +12,10 @@
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.studio-link .link:hover{
+.studio-link:hover{
   color: #404bbf;
 }
-.studio-link .link:focus{
+.studio-link:focus{
   color: #404bbf;
 }
 .address{
@@ -31,6 +31,40 @@
 .mailto:focus{
   color: #404bbf;
 }
+.button-header:hover{
+  background-color: #404BBF;  
+}
+.button-header:focus{
+  background-color: #404BBF;
+}
+.strategy{
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.body-p{
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.our-team{
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.our-team-mark{
+  background-color: #FFFFFF;
+}
+.our-portfolio{
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.banking-app{
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
 .web-studio{
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -39,6 +73,11 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+}
+.app{
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 body{
   font-family: "Roboto", sans-serif;
@@ -91,4 +130,24 @@ p{
 }
 .about{
   color: #FFFFFF;
+}
+.footer{
+  background-color: #2e2f42;
+}
+.footer-logo{
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.studio-text-footer{
+  color: #f4f4fd;
+}
+.footer-p{
+  line-height: 1.5;
+  color: #F4F4FD;
+  letter-spacing: 0.02em;
 }
