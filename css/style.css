@@ -1,0 +1,51 @@
+.effective-solutions{
+  background-color: #2E2F42;
+}
+.our-team{
+  background-color: #F4F4FD;
+}
+body{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+}
+h1{
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 56px;
+  letter-spacing: 2%;
+  line-height: 60px;
+}
+h2{
+  color: #2E2F42;
+  font-weight: bold;
+  font-size: 36px;
+  letter-spacing: 2%;
+}
+h3{
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 2%;
+}
+button{
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 4%;
+}
+link{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 4%;
+  text-decoration-line: underline;
+}
+p{
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 4%;
+}
