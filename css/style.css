@@ -38,6 +38,7 @@
   background-color: #404BBF;
 }
 .strategy{
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
@@ -61,7 +62,7 @@
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-.banking-app{
+.portfolio-h3{
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
@@ -74,7 +75,7 @@
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.app{
+.portfolio-p{
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
