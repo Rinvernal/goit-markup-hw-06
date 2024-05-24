@@ -249,6 +249,8 @@ img{
   display: flex;
   gap: 24px;
   width: calc((100% - 48px) / 3);
+  flex-wrap: wrap;
+  row-gap: 48px;
 }
 .item{
   padding-left: 0;
