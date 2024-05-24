@@ -247,11 +247,7 @@ img{
 }
 .portf-ul{
   display: flex;
-  flex-wrap: wrap;
   gap: 24px;
-  row-gap: 48px; 
-  list-style-type: none;
-  
   width: calc((100% - 48px) / 3);
 }
 .item{
