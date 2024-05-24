@@ -168,8 +168,7 @@ img{
   padding-bottom: 120px;
 }
 .strategy-li{
-  flex-basis: calc((100%-3*24px)/4)
-  width: 264px;
+  width: calc((100% - 72px) / 4);
 }
 .advantages-visually-hidden{
   color: #FFFFFF;
@@ -205,8 +204,7 @@ img{
   padding-top: 232px;
   padding-left: 156px;
 }
-.our-team-mark{ 
-  list-style-type: none;
+.our-team-mark{
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
@@ -259,10 +257,12 @@ img{
 .portfolio-h{
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .portfolio-div{
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .portfolio-p{
   font-size: 16px;
@@ -282,8 +282,8 @@ img{
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  display: inline-block;
   margin-bottom: 16px;
+  display: inline-block;
 }
 .studio-text-footer{
   color: #f4f4fd;
