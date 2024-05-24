@@ -70,9 +70,15 @@ img{
 .header{
   border-bottom: 1px solid #e7e9fc;
 }
-.header-nav{
+.container{
   display: flex;
   width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.header-nav{
+  display: flex;
+  align-items: center;
 }
 .web-studio{ 
   font-family: "Raleway", sans-serif;
@@ -84,6 +90,7 @@ img{
   color: #4d5ae5;
   padding: 24px 76px 24px 156px;
   text-decoration: none;
+  margin-right: 76px;
 }
 .studio-text{
   color: #2e2f42;
