@@ -138,7 +138,6 @@ link{
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
-  width: calc((100%-72px)/4);
   list-style-type: none;
   padding-top: 120px;
   padding-bottom: 120px;
@@ -195,6 +194,11 @@ link{
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  
+  list-style-type: none;
+}
+.item{
+  width: calc((100%-48px)/3);
 }
 .portfolio-h{
   letter-spacing: 0.02em;
