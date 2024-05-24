@@ -64,7 +64,13 @@ link{
   letter-spacing: 4%;
   text-decoration: underline;
 }
+img{
+  display: block
+}
 .header{
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-nav{
   display: flex;
 }
 .web-studio{ 
