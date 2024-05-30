@@ -268,6 +268,7 @@ img{
 .person-item{
   width: 40px;
   height: 40px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 }
 .person-link{
   width: 100%;
@@ -323,6 +324,9 @@ img{
   margin: 0;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.item:hover{
+  transform: translateY(0%);
+}
 .portf-div-first{
   position: relative;
   overflow: hidden;
@@ -338,12 +342,12 @@ img{
   background-color: #4d5ae5;
   height: 100%;
   width: 100%;
-  
+  transform: translateY(100%); 
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portf-hover-text:hover{
+/* .portf-hover-text:hover{ 
   transform: translateY(100%);
-}
+}*/
 .item:hover{
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
