@@ -354,5 +354,54 @@
       </div>
     </div>
   </footer>
+  <div class="backdrop">
+    <div class="modal">
+      <button type="button" class="modal-close">
+        <svg width="8px" height="8px" class="close-svg">
+          <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+      <p class="modal-title">Leave your contacts and we will call you back</p>
+      <form class="modal-form">
+        <div class="modal-field">
+          <label for="user-name" class="modal-label">Name</label>
+          <div class="modal-field-wrap">
+            <input type="text" name="user-name" class="modal-input" placeholder="enter name" id="user-name">
+            <svg width="18px" height="18px" class="modal-icon">
+              <use href="./images/icons.svg#icon-name"></use>
+            </svg>
+          </div>
+        </div>
+        <div class="modal-field">
+          <label for="user-email" class="modal-label">Phone</label>
+          <div class="modal-field-wrap">
+            <input type="tel" name="user-tel" class="modal-input" placeholder="enter email"id="user-tel">
+            <svg width="18px" height="18px" class="modal-icon">
+              <use href="./images/icons.svg#icon-tel"></use>
+            </svg>
+          </div>
+        </div>
+        <div class="modal-field">
+          <label for="user-tel" class="modal-label">Email</label>
+          <div class="modal-field-wrap">
+            <input type="email" name="user-email" class="modal-input" placeholder="enter tel"id="user-email">
+            <svg width="18px" height="18px" class="modal-icon">
+              <use href="./images/icons.svg#icon-email"></use>
+            </svg>
+          </div>
+        </div>
+        <div class="modal-field">
+          <label for="user-comment" class="modal-label">Comment</label>
+          <textarea name="user-comment" id="user-comment" class="modal-text" placeholder="Text input"></textarea>
+        </div>
+        <div class="modal-field">
+          <input type="checkbox" name="policy" id="policy" value="true" class="modal-check">
+          <label for="policy" class="modal-check-text"> <span></span> I accept the terms and conditions of the Privacy Policy</label>
+        </div>
+        
+        <button type="submit" class="modal-btn">Send</button>
+      </form>
+    </div>
+  </div>
 </body>
 </html>
