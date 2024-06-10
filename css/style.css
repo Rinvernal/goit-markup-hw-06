@@ -452,6 +452,7 @@ img{
   background-color: rgba(46, 47, 66, 0.4);
   position: fixed;
   top: 0;
+  border-radius: 4px;
   
 } 
 .modal{
@@ -513,7 +514,8 @@ img{
 }
 .modal-field{
   margin-bottom: 8px;
-}
+  line-height: 12px;
+} 
 .modal-icon{
   position: absolute;
   left: 16px;
@@ -561,5 +563,6 @@ img{
   margin-right: 12px;
 }
 .modal-check:checked + .modal-check-text span{
-
+  background-color: #31d0aa;
+  border: none;
 }
