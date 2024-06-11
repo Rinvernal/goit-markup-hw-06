@@ -603,8 +603,7 @@ img{
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 40%);
   border-radius: 2px;
-  margin-right: 12px;
-  display: flex; 
+  margin-right: 12px; 
   align-items: center;
   justify-content: center;
   fill: transparent;
